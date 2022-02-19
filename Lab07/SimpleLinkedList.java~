@@ -1,0 +1,51 @@
+public class SimpleLinkedList
+{
+   private Node head;
+   private Node tail;
+   public SimpleLinkedList()
+   {
+      head = null;
+   }
+   public void addToTail(String data)
+   {
+      if( head == null )
+      {
+         head = new Node(data);
+         tail = head;
+      }
+      else
+      {
+         Node node = new Node(data);
+         tail.setNext() = node;
+         tail = node;
+      }
+   }
+   public String removeFromHead()
+   {
+      if( head == null )
+         return "";
+      
+      String removedValue = head.getValue();
+      if( head.getNext() == null )
+         return removedValue;
+      
+      SimpleLinkedList temp = new SimpleLinkedList();
+      while( head.getNext().getNext() != null )
+         temp.addToTail( head.getNext().getData() );
+      this = temp;
+      return removedValue;
+   }
+   public boolean isEmpty()
+   {
+      if( head == null )
+         return true;
+      return false;
+   }
+   public Node get(String data)
+   {
+      Node temp = head;
+      while( !temp.getData().equals(data) && )
+         temp = temp.getNext();
+      
+   }
+}

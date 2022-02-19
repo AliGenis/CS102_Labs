@@ -1,0 +1,32 @@
+import cs102.*;
+
+public class HangmanModel extends Hangman
+{
+   private IHanhmanView view;
+   
+   public HangmanModel( IHangmanSetup setup )
+   {
+      super( setup );
+   }
+   public void addView( IHangmanView view )
+   {
+      this.view = view;
+   }
+   public void update()
+   {
+      view.updateView( this );
+   }
+   
+   public int tryThis( char c )
+   {
+      int tryThis;
+      tryThis = super.tryThis( letter );
+      update();
+      return tryThis;
+   }
+   public void initNewGame()
+   {
+      super.initNewGame();
+      update();
+   }
+}

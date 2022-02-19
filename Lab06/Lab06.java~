@@ -1,0 +1,78 @@
+import java.util.Scanner;
+/*
+ * Class to learn recursion
+ * 
+ * @author Ali Genis
+ * @date 7.12.2020
+ */
+public class Lab06
+{
+   public static void main (String[] args)
+   {
+      Scanner scan = new Scanner(System.in);
+      int menu;
+      do
+      {
+         //Menu
+         System.out.println( "1-String length" );
+         System.out.println( "2-Non-vowel" );
+         System.out.println( "0-Exit" );
+         menu = scan.nextInt();
+         scan.nextLine();
+         
+         //Length
+         if(menu == 1)
+         {
+            System.out.println( "Enter the string to find its length: " );
+            System.out.println( "" + stringLength( scan.nextLine() ) );
+         }
+         //Non-vowel
+         if(menu == 2)
+         {
+            System.out.println( "Enter for counting non-vowels: " );
+            System.out.println( "" + nonVowel( scan.nextLine() ) );
+         }
+      }while( menu != 0 );
+   }
+   
+   /*Method to find length of string
+    * 
+    * @param string to find its length
+    * @return length of string with using recursion
+    */
+   public static int stringLength( String s )
+   {
+      //Base case
+      if( s.equals( "" ) )
+         return 0;
+      //General case
+      else
+         return 1 + stringLength( s.substring(1) );
+   }
+   /*Method to find non-vowels
+    * 
+    * @param string to find its non-vowel letters
+    * @return non-vowel letters of string with using recursion
+    */
+   public static int nonVowel( String string )
+   {
+      String s = string.toUpperCase();
+      //Base case
+      if( s.equals( "" ) )
+         return 0;
+      //Non-vowel letters
+      else if( s.charAt(0) > 65 && s.charAt(0) < 69 )
+         return 1 + nonVowel( s.substring(1) );
+      else if( s.charAt(0) > 69 && s.charAt(0) < 73 )
+         return 1 + nonVowel( s.substring(1) );
+      else if( s.charAt(0) > 73 && s.charAt(0) < 79 )
+         return 1 + nonVowel( s.substring(1) );
+      else if( s.charAt(0) > 79 && s.charAt(0) < 85 )
+         return 1 + nonVowel( s.substring(1) );
+      else if( s.charAt(0) > 85 && s.charAt(0) < 91 )
+         return 1 + nonVowel( s.substring(1) );
+      //Anything else
+      else
+         return 0 + nonVowel( s.substring(1) );
+   }
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<drjava version="drjava-20190813-220051">
+  <project autorefresh="false" build="classes/" root="" work="">
+    <createjar file=""/>
+    <source>
+      <file active="true" name="src/ConsoleHangman.java" package="" timestamp="03-Dec-2020 11:53:48">
+        <select from="750" to="750"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="src/BasicSetup.java" package="" timestamp="01-Dec-2020 14:00:56">
+        <select from="750" to="750"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="src/IHangmanView.java" package="" timestamp="01-Dec-2020 14:00:55">
+        <select from="750" to="750"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="src/HangmanModel.java" package="" timestamp="02-Dec-2020 15:50:41">
+        <select from="750" to="750"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="src/ConsoleHangmanView.java" package="" timestamp="03-Dec-2020 11:53:48">
+        <select from="750" to="750"/>
+        <scroll column="0" row="0"/>
+      </file>
+    </source>
+    <included/>
+    <excluded/>
+    <collapsed/>
+    <classpath>
+      <file absolute="false" name="classes/"/>
+    </classpath>
+    <breakpoints/>
+    <watches/>
+    <bookmarks/>
+    <preferences/>
+  </project>
+</drjava>
