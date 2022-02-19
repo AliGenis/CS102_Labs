@@ -1,0 +1,36 @@
+public class Triangle extends Shape
+{
+   private int sideA;
+   private int sideB;
+   private int sideC;
+   
+   public Triangle( int a , int b , int c )
+   {
+      this.sideA = a;
+      this.sideB = b;
+      this.sideC = c;
+   }
+   public int getSideA()
+   {
+      return sideA;
+   }
+   public int getSideB()
+   {
+      return sideB;
+   }
+   public int getSideC()
+   {
+      return sideC;
+   }
+   
+   public double getArea()
+   {
+      int semiPerimeter = getPerimeter() / 2;
+      
+      return Math.sqrt(semiPerimeter * (semiPerimeter - sideA) * (semiPerimeter - sideB) * (semiPerimeter - sideC) );
+   }
+   public double getPerimeter()
+   {
+      return sideA + sideB + sideC;
+   }
+}

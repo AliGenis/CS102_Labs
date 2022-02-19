@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<drjava version="drjava-20190813-220051">
+  <project autorefresh="false" main="MainFrame" root="" work="">
+    <createjar file=""/>
+    <source>
+      <file active="true" name="SOSCanvas.java" package="" timestamp="26-Nov-2020 14:25:02">
+        <select from="556" to="597"/>
+        <scroll column="676" row="0"/>
+      </file>
+      <file name="MainFrame.java" package="" timestamp="26-Nov-2020 14:08:22">
+        <select from="556" to="597"/>
+        <scroll column="676" row="0"/>
+      </file>
+      <file name="SOSGUIPanel.java" package="" timestamp="26-Nov-2020 14:27:51">
+        <select from="556" to="597"/>
+        <scroll column="676" row="0"/>
+      </file>
+    </source>
+    <included/>
+    <excluded/>
+    <collapsed/>
+    <classpath/>
+    <breakpoints/>
+    <watches/>
+    <bookmarks/>
+    <preferences/>
+  </project>
+</drjava>

@@ -1,0 +1,7 @@
+public class WordSearch
+{
+   public WordSearch( String text , String word )
+   {
+      
+   }
+}

@@ -1,0 +1,38 @@
+import javax.swing.*;
+import java.util.Scanner;
+
+public class PotLuck
+{
+   public static void main ( String[] args )
+   {
+      Scanner scan = new Scanner(System.in);
+      int matrix;
+      
+      System.out.println( "Please insert the dimension of the pot luck game" );
+      matrix = scan.nextInt();
+   }
+   
+   
+   
+   
+   
+   
+   
+   
+   class GamePanel extends JPanel
+   {
+      private JPanel gamePanel = new JPanel();
+      
+      public void createGamePanel( int n )
+      {
+         for( int i = 0; i < n; i++ )
+         {
+            for( int j = 0; j < n; j++ )
+            {
+               gamePanel.add( new JButton( "Pot " + ( ( i * 4 ) + ( j + 1 ) ) ) );
+            }
+            
+         }
+      }
+   }
+}

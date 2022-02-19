@@ -1,0 +1,18 @@
+import javax.swing.*;
+import java.awt.*;
+
+public class MainFrame extends JFrame{
+   public static void main( String[] args ){
+      JFrame frame = new JFrame( "Test" );
+      //JFrame framee = new JFrame( "Game" );
+      
+      SOSGUIPanel guiPanel = new SOSGUIPanel( Integer.parseInt( JOptionPane.showInputDialog(frame, "Enter row and column number" ) )
+                                                , JOptionPane.showInputDialog(frame, "Enter first player's name" )
+                                                , JOptionPane.showInputDialog(frame, "Enter second player's name" ) );
+      frame.setDefaultCloseOperation (JFrame.EXIT_ON_CLOSE);
+      frame.setSize( 500 , 500 );
+      frame.getContentPane().add(guiPanel);
+      frame.setFocusable(true);
+      frame.setVisible(true);
+   }
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<drjava version="drjava-20190813-220051">
+  <project autorefresh="false" build="classes/" root="" work="">
+    <createjar file=""/>
+    <source>
+      <file active="true" name="ShapeTester.java" package="" timestamp="04-Nov-2020 15:24:26">
+        <select from="2750" to="2750"/>
+        <scroll column="571" row="0"/>
+      </file>
+      <file name="Locatable.java" package="" timestamp="03-Nov-2020 16:16:59">
+        <select from="2750" to="2750"/>
+        <scroll column="571" row="0"/>
+      </file>
+      <file name="shape/Selectable.java" package="" timestamp="03-Nov-2020 16:26:29">
+        <select from="2750" to="2750"/>
+        <scroll column="571" row="0"/>
+      </file>
+      <file name="ShapeContainer.java" package="" timestamp="04-Nov-2020 15:24:26">
+        <select from="2750" to="2750"/>
+        <scroll column="571" row="0"/>
+      </file>
+      <file name="shape/Shape.java" package="" timestamp="04-Nov-2020 15:24:26">
+        <select from="2750" to="2750"/>
+        <scroll column="571" row="0"/>
+      </file>
+      <file name="shape/Circle.java" package="" timestamp="04-Nov-2020 15:25:10">
+        <select from="2750" to="2750"/>
+        <scroll column="571" row="0"/>
+      </file>
+      <file name="shape/Triangle.java" package="" timestamp="04-Nov-2020 15:25:10">
+        <select from="2750" to="2750"/>
+        <scroll column="571" row="0"/>
+      </file>
+      <file name="shape/Square.java" package="" timestamp="04-Nov-2020 15:25:10">
+        <select from="2750" to="2750"/>
+        <scroll column="571" row="0"/>
+      </file>
+      <file name="shape/Rectangle.java" package="" timestamp="04-Nov-2020 15:25:10">
+        <select from="2750" to="2750"/>
+        <scroll column="571" row="0"/>
+      </file>
+    </source>
+    <included/>
+    <excluded/>
+    <collapsed/>
+    <classpath/>
+    <breakpoints/>
+    <watches/>
+    <bookmarks/>
+    <preferences/>
+  </project>
+</drjava>
